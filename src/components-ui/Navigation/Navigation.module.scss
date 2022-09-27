@@ -1,0 +1,50 @@
+@import "src/styles/vars";
+
+.navigationBlock {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid $Gray200;
+}
+
+.logoNavigationBlock {
+  padding: 0 140px;
+}
+
+.itemsNavigationBlock {
+  display: flex;
+}
+
+.itemNavigation {
+  margin-right: 32px;
+}
+
+.link {
+  color: $HelperGray;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: $HelperGray;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+
+.linkActive, .linkActive:hover {
+  text-shadow: 0 0 .65px $TextDark, 0 0 .65px $TextDark;
+  color: $TextDark;
+  cursor: pointer;
+}
+
+.notificationsBlock {
+  margin-left: 19.5%;
+  img{
+    cursor: pointer ;
+  }
+}
+
+
+
+
